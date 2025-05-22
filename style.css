@@ -1,0 +1,127 @@
+    .bg-blue{
+        background: #091527;
+        background: linear-gradient(90deg, rgba(9, 21, 39, 1) 0%, rgba(8, 14, 33, 1) 53%, rgba(8, 14, 33, 1) 100%);
+    }
+    .bg-lightblue{
+        background-color: #8fecff56
+    }
+    .text-gray{
+        color: #94A3B8;
+    }
+    .text-lightblue{
+        color: #2ec5bb;
+    }
+    .btn-lightblue{
+        background-color: #2ec5bb;
+    }
+    .bg-darkblue{
+        background-color: #171529;
+    }
+    .bg-blue{
+      background-color: #080E21;
+    }
+
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 15px;
+  cursor: none;
+}
+
+body {
+  --color-text: #767676;
+  --color-bg: #000;
+  --color-link: #c35340;
+  --color-link-hover: #fff;
+  --color-cover: #c35340;
+  --color-copy: #767676;
+  --color-content-title: #c35340;
+  --color-indicator: #1b1b1b;
+  font-family: serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Righteous", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+.c-cursor {
+  display: none;
+}
+
+@media (any-pointer: fine) {
+  .c-cursor {
+    display: block;
+  }
+
+  .c-cursor__inner {
+    z-index: 9999;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    mix-blend-mode: difference;
+    border-radius: 50%;
+  }
+
+  .c-cursor__side {
+    position: absolute;
+    top: 50%;
+    width: 5px;
+    height: 1px;
+    background: #fff;
+    opacity: 0;
+  }
+
+  .c-cursor__side--left {
+    right: calc(100% + 5px);
+  }
+
+  .c-cursor__side--right {
+    left: calc(100% + 5px);
+  }
+
+  .c-cursor__inner--circle {
+    width: 25px;
+    height: 25px;
+    border: 1px solid #fff;
+  }
+}
+
+canvas {
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 100%;  
+  z-index: 0;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.border-radius{
+  border-radius: 31% 69% 20% 80% / 45% 58% 42% 55% ;
+}
+.rotate-90{
+  transform: rotate(90deg);
+}
+
+
+

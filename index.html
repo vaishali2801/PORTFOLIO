@@ -3,89 +3,339 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="bootstrap.bundle.min.js">
     <link rel="stylesheet" href="bootstrap.min.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link  rel="stylesheet">
     <title>PORTFOLIO</title>
- <style>
-    .bg-blue{
-        background: #091527;
-        background: linear-gradient(90deg, rgba(9, 21, 39, 1) 0%, rgba(8, 14, 33, 1) 53%, rgba(8, 14, 33, 1) 100%);
-    }
-    .bg-lightblue{
-        background-color: #8fecff56
-    }
-    .text-gray{
-        color: #94A3B8;
-    }
-    .text-lightblue{
-        color: #2ec5bb;
-    }
-    .btn-lightblue{
-        background-color: #2ec5bb;
-    }
-    .bg-darkblue{
-        background-color: #171529;
-    }
- </style>
+ 
 </head>
 <body class="bg-blue">
-
-    <header >
-        <div class="navbar navbar-expand-lg ">
-            <div class="container">
-                <div class="navbar-brand">
-                  <h1 class="fs-2 text-light">CV</h1>
-                </div>
-                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#one">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse container" id="one">
-                    <ul class="nav nav-underline ms-auto navbar-nav gap-3" >
-                        <li class="nav-item">
-                            <a href="#one" class="nav-link text-light">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#two" class="nav-link  text-light">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#three" class="nav-link  text-light">Academics</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#four" class="nav-link  text-light">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#five" class="nav-link  text-light">Resume</a>
-                        </li>
-                        <li class="nav-item px-1">
-                            <a href="#six" class="nav-link  text-light">Contact</a>
-                        </li> 
-                    </ul>
-                
-                </div>
-            </div>
-        </div>
-     </header>
-     <section>
-        <div class="container my-5 py-5">
-            <div class="row">
-                <div class="col-6 p-2 pt-5 mt-5">
-                    <div class="bg-lightblue border-0 rounded-4 w-50 px-4 fw-bold"><p class="text-lightblue">Welcome to my portfolio</p></div>
-                    <h1 class="display-1 text-light">Hi, I'm </h1>
-                       <h1 class=" display-1 text-light"> Vaishali Chauhan</h1>
-                    <h2 class="display-7 fw-bold text-gray mt-3">frontend developer</h2>
-                    <p class="fs-4 text-gray">Passionate about programming and software development with expertise in Python, JavaScript, and C++. Building modern web applications using Node.js, React.js, and Next.js. Freelancer specializing in AI-powered solutions.</p>
-                    <button class="btn btn-lightblue btn-sm text-light fs-5 mt-3 py-2 px-4">Get in Touch <i class="ri-arrow-right-line"></i></button>
-                    <button class="btn btn-secondary bg-darkblue text-light fs-5 mt-3 py-2 px-4 border-0">View projects</i></button>
-                </div>
-                <div class="col-6 p-3">
-                    <div class="border p-3">
-                        
+    <div class="c-cursor js-cursor">
+      <div class="c-cursor__inner c-cursor__inner--circle js-cursor-inner">
+        <div class="c-cursor__side c-cursor__side--left js-cursor-right"></div>
+        <div class="c-cursor__side c-cursor__side--right js-cursor-left"></div>
+      </div>
+    </div>
+    <div class="c-links-wrapper">
+      <ul class="c-links">
+        <li class="c-links__item">
+          
+    <a href="#" class="c-link js-link"></a>
+        </li>
+        <li class="c-links__item">
+          
+    <a href="#" class="c-link js-link"></a>
+        </li>     
+      </ul>
+    </div> 
+    
+    <!---------------------------------------------------navbar--------------------------------------------------------->
+          <header class="position-relative">
+             <canvas id="canvas" height="850px">
+           </canvas>
+            <div class="row justify-content-between">
+                <div class="navbar navbar-expand-lg fixed-top box-shadow-sm bg-blue">
+                    <div class="container">
+                        <div class="navbar-brand">
+                         <img src="./img/logo.png" alt="" class="img-fluid" style="height: 90px;width: 140px;">
+                        </div>
+                        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+                          <i class="ri-menu-line mx-2 text-light"></i>
+                        </button>
+                        <div class="navbar-collapse collapse " id="nav">
+                            <ul class="navbar-nav nav-underline ms-auto gap-3" >
+                                <li class="nav-item">
+                                    <a href="#one" class="nav-link text-light"><b>Home</b></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#two" class="nav-link  text-light"><b>About</b></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#three" class="nav-link  text-light"><b>Academics</b></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#four" class="nav-link  text-light"><b>Projects</b></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#five" class="nav-link  text-light"><b>Resume</b></a>
+                                </li>
+                                <li class="nav-item px-1">
+                                    <a href="#six" class="nav-link  text-light"><b>Contact</b></a>
+                                </li> 
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
+          </header>
+
+
+ <!-----------------------------------------------------homepage---------------------------------------------------------->
+   <section class="py-5">
+    <div class="container my-5 py-5 z-3">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-lg-6 p-2 pt-5 mt-5">
+          <div class="bg-lightblue border-0 rounded-4 w-50 px-4 fw-bold">
+            <p class="text-lightblue">Welcome to my portfolio</p>
+          </div>
+          <h1 class="display-1 text-light">Hi, I'm </h1>
+          <h1 class=" display-1 text-light"> Vaishali Chauhan</h1>
+          <h2 class="display-7 fw-bold text-gray mt-3">Frontend Developer</h2>
+          <p class="fs-4 text-gray">Passionate about programming and software development with expertise in Python,
+            JavaScript, and C++. Building modern web applications using Node.js, React.js, and Next.js. Freelancer
+            specializing in AI-powered solutions.</p>
+          <button class="btn btn-lightblue btn-sm text-light fs-5 mt-3 py-2 px-4">Get in Touch <i
+              class="ri-arrow-right-line"></i></button>
+          <button class="btn btn-secondary bg-darkblue text-light fs-5 mt-3 py-2 px-4 border-0">View projects</i></button>
+          <div class="icon d-flex justify-content-center gap-3 pt-3">
+            <img src="./img/bottom.svg" class="rotate-90 mx-5 ">
+            <div class="rounded-circle border mb-3" style="width: 40px;height: 35px;">
+              <a href="https://www.instagram.com/miss_chauhan_2801">
+                <i class="ri-instagram-line fs-4 px-2 text-light"></i>
+              </a>
+            </div>
+            <div class="rounded-circle border mb-3" style="width: 40px;height: 35px;">
+              <a href="">
+                <i class="ri-instagram-line fs-4 px-2 text-light"></i>
+              </a>
+            </div>
+            <div class="rounded-circle border mb-3" style="width: 40px;height: 35px;">
+              <a href="">
+                <i class="ri-instagram-line fs-4 px-2 text-light"></i>
+              </a>
+            </div>
+          </div>
         </div>
-     </section>
-    
+        <div class="col-12 col-sm-12 col-lg-6 p-3 d-flex justify-content-center flex-column gap-2">
+          <div class="mx-5 z-3">
+            <img src="./img/vaishali.jpg" class="img-fluid border-radius mx-5" style="height:600px;">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!---------------------------------------------------------------about me----------------------------------------------------------------->
+  <section class="py-5">
+  <h2>vaishali</h2>
+  </section>
+
+     
 </body>
+<script src="bootstrap.bundle.min.js"></script>
+<script>
+    const body = document.body;
+
+const MathUtils = {
+  lineEq: (y2, y1, x2, x1, currentVal) => {
+    // y = mx + b
+    var m = (y2 - y1) / (x2 - x1),
+      b = y1 - m * x1;
+    return m * currentVal + b;
+  },
+  lerp: (a, b, n) => (1 - n) * a + n * b,
+  getRandomFloat: (min, max) => (Math.random() * (max - min) + min).toFixed(2)
+};
+
+const getMousePos = e => {
+  let posx = 0;
+  let posy = 0;
+  if (!e) e = window.event;
+  if (e.pageX || e.pageY) {
+    posx = e.pageX;
+    posy = e.pageY;
+  } else if (e.clientX || e.clientY) {
+    posx = e.clientX + body.scrollLeft + document.documentElement.scrollLeft;
+    posy = e.clientY + body.scrollTop + document.documentElement.scrollTop;
+  }
+  return { x: posx, y: posy };
+};
+
+let winsize;
+const calcWinsize = () =>
+  (winsize = { width: window.innerWidth, height: window.innerHeight });
+calcWinsize();
+window.addEventListener("resize", calcWinsize);
+
+let mousepos = { x: winsize.width / 2, y: winsize.height / 2 };
+window.addEventListener("mousemove", ev => (mousepos = getMousePos(ev)));
+
+// Custom cursor
+class Cursor {
+  constructor(el) {
+    this.DOM = { el: el };
+    this.DOM.circle = this.DOM.el.querySelector(".js-cursor-inner");
+    this.DOM.arrows = {
+      right: this.DOM.el.querySelector(".js-cursor-right"),
+      left: this.DOM.el.querySelector(".js-cursor-left")
+    };
+    this.bounds = this.DOM.circle.getBoundingClientRect();
+    this.lastMousePos = { x: 0, y: 0 };
+    this.scale = 1;
+    this.lastScale = 1;
+    requestAnimationFrame(() => this.render());
+  }
+  render() {
+    this.lastMousePos.x = MathUtils.lerp(
+      this.lastMousePos.x,
+      mousepos.x - this.bounds.width / 2,
+      0.2
+    );
+    this.lastMousePos.y = MathUtils.lerp(
+      this.lastMousePos.y,
+      mousepos.y - this.bounds.height / 2,
+      0.2
+    );
+    this.lastScale = MathUtils.lerp(this.lastScale, this.scale, 0.15);
+    this.DOM.circle.style.transform = `translateX(${
+      this.lastMousePos.x
+    }px) translateY(${this.lastMousePos.y}px) scale(${this.lastScale})`;
+    requestAnimationFrame(() => this.render());
+  }
+  enter() {
+    this.scale = 1.9;
+  }
+  leave() {
+    this.scale = 1;
+  }
+  click() {
+    this.lastScale = 0.4;
+  }
+  showArrows() {
+    TweenMax.to(Object.values(this.DOM.arrows), 1, {
+      ease: Expo.easeOut,
+      startAt: { x: i => (i ? 10 : -10) },
+      opacity: 1,
+      x: 0
+    });
+  }
+  hideArrows() {
+    TweenMax.to(Object.values(this.DOM.arrows), 1, {
+      ease: Expo.easeOut,
+      x: i => (i ? 10 : -10),
+      opacity: 0
+    });
+  }
+}
+
+// Custom mouse cursor
+const cursor = new Cursor(document.querySelector(".js-cursor"));
+
+// Activate the enter/leave/click methods of the custom cursor when hovering in/out on every <a> (and the close content ctrl)
+const links = document.querySelectorAll(".js-link");
+
+[...links].forEach(link => {
+    link.addEventListener("mouseenter", () => cursor.enter());
+    link.addEventListener("mouseleave", () => cursor.leave());
+  });
+
+
+const canvas = document.getElementById("canvas");
+const ctx = canvas.getContext("2d");
+
+canvas.width = window.innerWidth;
+// canvas.height = window.innerHeight;
+
+let particles = [];
+const numberOfParticles = 200;
+const mouse = {
+  x: null,
+  y: null,
+  radius: 150
+};
+
+// Define gradient colors array
+const gradientColors = ["#ff6b6b", "#4ecdc4", "#45b7d1", "#96c93d"];
+
+class Particle {
+  constructor() {
+    this.x = Math.random() * canvas.width;
+    this.y = Math.random() * canvas.height;
+    this.size = Math.random() * 2 + 0.5; // Slightly smaller particles
+    this.baseX = this.x;
+    this.baseY = this.y;
+    this.density = Math.random() * 30 + 1;
+    this.color =
+      gradientColors[Math.floor(Math.random() * gradientColors.length)];
+    this.alpha = Math.random() * 0.5 + 0.5; // Add transparency
+  }
+
+  draw() {
+    ctx.beginPath();
+    ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+    ctx.closePath();
+    ctx.fillStyle = this.color;
+    ctx.globalAlpha = this.alpha;
+    ctx.fill();
+    ctx.globalAlpha = 1;
+  }
+
+  update() {
+    let dx = mouse.x - this.x;
+    let dy = mouse.y - this.y;
+    let distance = Math.sqrt(dx * dx + dy * dy);
+    let forceDirectionX = dx / distance;
+    let forceDirectionY = dy / distance;
+    let maxDistance = mouse.radius;
+    let force = (maxDistance - distance) / maxDistance;
+    let directionX = forceDirectionX * force * this.density;
+    let directionY = forceDirectionY * force * this.density;
+
+    if (distance < mouse.radius) {
+      this.x -= directionX;
+      this.y -= directionY;
+    } else {
+      if (this.x !== this.baseX) {
+        let dx = this.x - this.baseX;
+        this.x -= dx / 10;
+      }
+      if (this.y !== this.baseY) {
+        let dy = this.y - this.baseY;
+        this.y -= dy / 10;
+      }
+    }
+  }
+}
+
+function init() {
+  particles = [];
+  for (let i = 0; i < numberOfParticles; i++) {
+    particles.push(new Particle());
+  }
+}
+
+function animate() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  for (let i = 0; i < particles.length; i++) {
+    particles[i].update();
+    particles[i].draw();
+  }
+  requestAnimationFrame(animate);
+}
+
+window.addEventListener("mousemove", (e) => {
+  mouse.x = e.x;
+  mouse.y = e.y;
+});
+
+window.addEventListener("resize", () => {
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+  init();
+});
+
+window.addEventListener("mouseout", () => {
+  mouse.x = undefined;
+  mouse.y = undefined;
+});
+
+init();
+animate();
+
+
+
+</script>
 </html>
