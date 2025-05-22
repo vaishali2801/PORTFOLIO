@@ -121,6 +121,9 @@ canvas {
 }
 .rotate-90{
   transform: rotate(90deg);
+  border: 1px solid red;
+  
+
 }
 
 
