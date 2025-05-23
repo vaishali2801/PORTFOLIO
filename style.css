@@ -82,6 +82,11 @@
   background-color: #f8fffe2d;
   border: 1px solid #666666;
 }
+.box:hover{
+  transform: scale(1.1);
+  transition: all 0.5s;
+ box-shadow: 0 0.6rem 1.2rem #9B87F5;
+}
 
 *,
 *::after,
