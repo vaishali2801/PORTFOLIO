@@ -1,9 +1,61 @@
-    .bg-blue{
+   
+    /*--------------- font shadow --------------*/
+    .display-1{
+      text-shadow: 3px 4px 10px #13A89A;
+    }
+    .display-7{
+      text-shadow: 2px 2px 8px #9B87F5;
+    }
+    /* ------------ shadow effect --------------*/
+    .shadow-info{
+      border: 1px solid #2ec5bb;
+      box-shadow: #2ec5bb -5px 5px 11px;
+    }
+    .shadow-info:hover{
+      box-shadow:none;
+      border: none;
+    }
+    .shadow-blue{
+        box-shadow: #9B87F5 -5px 5px 11px;
+        border: 1px solid #9B87F5;
+    }
+    .shadow-blue:hover{
+       background-color:#091527;
+       border: none;
+       box-shadow: none;
+    }
+    .shadow-purple{
+      text-shadow: 2px 2px 5px #9B87F5;
+    }
+    /*----------- background colors ----------*/
+      .bg-blue{
         background: #091527;
         background: linear-gradient(90deg, rgba(9, 21, 39, 1) 0%, rgba(8, 14, 33, 1) 53%, rgba(8, 14, 33, 1) 100%);
     }
     .bg-lightblue{
+        background-color: #2ec5bb;
+    }
+    .bg-font{
         background-color: #8fecff56
+    }
+    .bg-darkblue{
+        background-color: #171529;
+    }
+    .bg-lightpurple{
+        background-color: #9B87F5;
+    }
+    .bg-blue{
+      background-color: #080E21;
+    }
+    /*--------- text color ----------*/
+    .text-purple{
+      color:#9B87F5; 
+    }
+    .text-purple-1{
+      color:#c479dbcc;
+    }
+    .text-purple:hover{
+      color:white; 
     }
     .text-gray{
         color: #94A3B8;
@@ -11,16 +63,25 @@
     .text-lightblue{
         color: #2ec5bb;
     }
-    .btn-lightblue{
-        background-color: #2ec5bb;
+    .text-darkblue{
+       color: #6998DD
     }
-    .bg-darkblue{
-        background-color: #171529;
+    .text-lightwhite{
+      color: #f3f5f8e8;
     }
-    .bg-blue{
-      background-color: #080E21;
+    .text-blue{
+      color: #8FA1A1;
+      font-size: 18px;
     }
-
+    .auto-type{
+    color: #9B87F5;;
+    text-transform: capitalize;
+}
+.box{
+  backdrop-filter: blur(1.5rem);
+  background-color: #f8fffe2d;
+  border: 1px solid #666666;
+}
 
 *,
 *::after,
@@ -31,23 +92,6 @@
 :root {
   font-size: 15px;
   cursor: none;
-}
-
-body {
-  --color-text: #767676;
-  --color-bg: #000;
-  --color-link: #c35340;
-  --color-link-hover: #fff;
-  --color-cover: #c35340;
-  --color-copy: #767676;
-  --color-content-title: #c35340;
-  --color-indicator: #1b1b1b;
-  font-family: serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-family: "Righteous", sans-serif;
-  font-weight: 400;
-  font-style: normal;
 }
 
 ul {
@@ -116,15 +160,5 @@ canvas {
     background-position: 0% 50%;
   }
 }
-.border-radius{
-  border-radius: 31% 69% 20% 80% / 45% 58% 42% 55% ;
-}
-.rotate-90{
-  transform: rotate(90deg);
-  border: 1px solid red;
-  
-
-}
-
 
 
