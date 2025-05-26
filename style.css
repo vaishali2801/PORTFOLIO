@@ -87,6 +87,9 @@
   transition: all 0.5s;
  box-shadow: 0 0.6rem 1.2rem #9B87F5;
 }
+.shadow{
+  box-shadow: (0, 0, 0, 0.24) 0px 3px 8px !important
+}
 
 *,
 *::after,
@@ -165,5 +168,6 @@ canvas {
     background-position: 0% 50%;
   }
 }
+
 
 
