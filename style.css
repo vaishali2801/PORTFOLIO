@@ -13,7 +13,7 @@
     }
     .shadow-info:hover{
       box-shadow:none;
-      border: none;
+      border:1px solid white;
     }
     .shadow-blue{
         box-shadow: #9B87F5 -5px 5px 11px;
@@ -21,7 +21,7 @@
     }
     .shadow-blue:hover{
        background-color:#091527;
-       border: none;
+       border: 1px solid white;
        box-shadow: none;
     }
     .shadow-purple{
@@ -73,9 +73,15 @@
       color: #8FA1A1;
       font-size: 18px;
     }
+    .text-hover:hover{
+      color: #9B87F5 ! important;
+    }
     .auto-type{
     color: #9B87F5;;
     text-transform: capitalize;
+}
+.border-1{
+  border: 1px solid #666666;
 }
 .box{
   backdrop-filter: blur(1.5rem);
@@ -88,7 +94,7 @@
  box-shadow: 0 0.6rem 1.2rem #9B87F5;
 }
 .shadow{
-  box-shadow: (0, 0, 0, 0.24) 0px 3px 8px !important
+  box-shadow: (0, 0, 0, 0.24) 0px 3px 8px ! important;
 }
 
 *,
@@ -168,6 +174,30 @@ canvas {
     background-position: 0% 50%;
   }
 }
-
-
-
+ .slick-prev:before, .slick-next:before{
+     display: none;  
+  }
+  .s-1:hover{
+     box-shadow: #e54c26b7 2px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;;
+  }
+  .s-2:hover{
+     box-shadow: #006fbec5 2px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;;
+  }
+  .s-3:hover{
+     box-shadow: #6f10ecbe 2px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;;
+  }
+  .s-4:hover{
+     box-shadow: #78d0f5c4 2px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;;
+  }
+  .s-5:hover{
+     box-shadow: #f4e21eb7 2px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;;
+  }
+  .s-6:hover{
+     box-shadow: #007ecdbe 2px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;;
+  }
+  .s-7:hover{
+     box-shadow: #00aaffd7 2px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;;
+  }
+  .box1:hover .bx{
+    transform:scale(1.2);
+  }
