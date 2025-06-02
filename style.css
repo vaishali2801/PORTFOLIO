@@ -65,17 +65,21 @@
     .bg-darkblue{
         background-color: #171529;
     }
-    
+    .bg-f{
+      background-color:#020617;
+    }
+    .bg-yellow{
+      backdrop-filter: blur(1.2rem);
+      background-color:#ffae0055;
+    }
     .bg-lightblue-1{
        backdrop-filter: blur(1rem);
     background-color:rgba(0, 238, 255, 0.19);
     }
-    
     .bg-lightpink{
        backdrop-filter: blur(1rem);
     background-color:rgba(251, 0, 255, 0.19);
     }
-    
     .bg-lightpurple{
         background-color: #9B87F5;
     }
@@ -103,7 +107,6 @@
       background-clip: text;
       display: inline-block;
     }
-   
     .bg-lightb{
       backdrop-filter:blur(1rem);
       background-color: #20275c85;
@@ -142,12 +145,18 @@
       background-color:#C28DD2;
       transform: scale(1.1);
     }
+    .icon77{
+      font-size:22px;
+    }
     /*--------- text color ----------*/
     .text-purple{
       color:#9B87F5; 
     }
     .text-icon{
       color: #606CF1;
+    }
+    .text-yellow{
+      color: #FFAE00;
     }
     .text-purple-1{
       color:#c479dbcc;
@@ -325,6 +334,58 @@ canvas {
       background-clip: text;
       display: inline-block;
   }
+   .bit-3{
+    transition: all 0.4s;
+  }
+  .bit-3:hover{
+      transform: translateY(-30px);
+      box-shadow: #EDF1F3 0px 13px 27px -5px, #E3A5F3 0px 8px 16px -8px;
+  }
+  .bit-3:hover .text{
+      background: linear-gradient(to right, #24CEEE,#537FF0,#DBA1FA);
+      color: transparent;
+      background-clip: text;
+      display: inline-block;
+  }
+   .bit-4{
+    transition: all 0.4s;
+  }
+  .bit-4:hover{
+      transform: translateY(-30px);
+      box-shadow: #FFD7C1 0px 13px 27px -5px, #E3A5F3 0px 8px 16px -8px;
+  }
+  .bit-4:hover .text{
+      background: linear-gradient(to right, #24CEEE,#537FF0,#DBA1FA);
+      color: transparent;
+      background-clip: text;
+      display: inline-block;
+  }
+   .bit-5{
+    transition: all 0.4s;
+  }
+  .bit-5:hover{
+      transform: translateY(-30px);
+      box-shadow: #618C89 0px 13px 27px -5px, #E3A5F3 0px 8px 16px -8px;
+  }
+  .bit-5:hover .text{
+      background: linear-gradient(to right, #24CEEE,#537FF0,#DBA1FA);
+      color: transparent;
+      background-clip: text;
+      display: inline-block;
+  }
+   .bit-6{
+    transition: all 0.4s;
+  }
+  .bit-6:hover{
+      transform: translateY(-30px);
+      box-shadow: #DB150C 0px 13px 27px -5px, #E3A5F3 0px 8px 16px -8px;
+  }
+  .bit-6:hover .text{
+      background: linear-gradient(to right, #24CEEE,#537FF0,#DBA1FA);
+      color: transparent;
+      background-clip: text;
+      display: inline-block;
+  }
   .text{
       background: linear-gradient(to right, #ffffff,#24CEEE);
       color: transparent;
@@ -334,6 +395,9 @@ canvas {
   /*----------------- border------------- */
   .btn-7:hover{
      border:1px solid #DBA1FA;
+  }
+  .border-2{
+    border: 1px solid #192542;
   }
   .border-pink{
     border-width: thin;
@@ -350,7 +414,7 @@ canvas {
     font-weight: 500;
   }
   .fs-7{
-    font-size: 14px;
+    font-size: 15px;
   }
   .box-7{
     transition: all 0.5s;
@@ -372,10 +436,8 @@ canvas {
   padding-left: 0.2em;
 }
 .card-mt{
-    
     background-color:#0f1a3d;
     transition: all 0.5s;
-
 }
 
 @media (min-width: 576px) {
@@ -400,7 +462,6 @@ canvas {
       width: 100%;
       height: 100%;
     }
-
     .swiper-slide {
       text-align: center;
       font-size: 18px;
@@ -408,7 +469,6 @@ canvas {
       justify-content: center;
       align-items: center;
     }
-
     .swiper-slide img {
       display: block;
       width: 100%;
@@ -417,5 +477,26 @@ canvas {
     }
     .swiper-button-next .swiper-button-prev{
       position: static;
-
     }
+h3 { color: #666;
+  display:inline-block; 
+  margin:0; 
+}
+h3:after {
+  display:block;
+  content: '';
+  border-bottom: solid 2px #ffffff;  
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+}
+h3:hover:after { transform: scaleX(1); }
+h3.fromLeft:after{  transform-origin:  0% 50%; }
+.fs-8{
+  font-size: 17px;
+}
+.div3{
+  transition: all 0.5s;
+}
+.div3:hover{
+  transform: translateX(10px);
+}
