@@ -14,10 +14,11 @@
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet">
   <title>PORTFOLIO</title>
 </head>
-<body class="bg-blue">
+<body class="bg-blue overflow-x-hidden">
   <div class="c-cursor js-cursor">
     <div class="c-cursor__inner c-cursor__inner--circle js-cursor-inner">
       <div class="c-cursor__side c-cursor__side--left js-cursor-right"></div>
@@ -53,22 +54,22 @@
           <div class="navbar-collapse collapse " id="nav">
             <ul class="navbar-nav nav-underline ms-auto gap-3">
               <li class="nav-item">
-                <a href="#one" class="nav-link text-lightwhite text-hover"><b>Home</b></a>
+                <a href="#home" class="nav-link text-lightwhite text-hover"><b>Home</b></a>
               </li>
               <li class="nav-item">
-                <a href="#two" class="nav-link  text-lightwhite text-hover "><b>About</b></a>
+                <a href="#about" class="nav-link  text-lightwhite text-hover "><b>About</b></a>
               </li>
               <li class="nav-item">
-                <a href="#three" class="nav-link  text-lightwhite text-hover"><b>Academics</b></a>
+                <a href="#skill" class="nav-link  text-lightwhite text-hover"><b>Skill</b></a>
               </li>
               <li class="nav-item">
-                <a href="#four" class="nav-link  text-lightwhite text-hover"><b>Projects</b></a>
+                <a href="project.html" class="nav-link  text-lightwhite text-hover"><b>Projects</b></a>
               </li>
               <li class="nav-item">
-                <a href="#five" class="nav-link  text-lightwhite text-hover"><b>Resume</b></a>
+                <a href="#education" class="nav-link  text-lightwhite text-hover"><b>Education</b></a>
               </li>
               <li class="nav-item px-1">
-                <a href="#six" class="nav-link  text-lightwhite text-hover"><b>Contact</b></a>
+                <a href="#contact" class="nav-link  text-lightwhite text-hover"><b>Contact</b></a>
               </li>
             </ul>
           </div>
@@ -80,7 +81,7 @@
   <section class="py-3 position-relative" id="home">
     <div class="container my-5 py-5 z-3">
       <div class="row">
-        <div class="col-12 col-sm-12 col-lg-6 p-2 pt-5 mt-5 p-3">
+        <div class="col-12 col-sm-12 col-lg-6 p-2 pt-5 mt-5 p-3" data-aos="fade-right">
           <div class="bg-font border-0 rounded-4 px-3 fw-bold" style="width: 40%;">
             <p class="text-lightblue">Welcome to my portfolio</p>
           </div>
@@ -124,7 +125,7 @@
 
           </div>
         </div>
-        <div class="col-12 col-sm-12 col-lg-6 p-3 d-flex justify-content-center flex-column gap-2 px-5">
+        <div class="col-12 col-sm-12 col-lg-6 p-3 d-flex justify-content-center flex-column gap-2 px-5" data-aos="fade-left">
           <div class="mx-5 z-3">
             <img src="./img/cvs.jpg" class="img-fluid rounded-pill shadow" style=" width: 75%;height: 550px;">
           </div>
@@ -136,7 +137,7 @@
   <section id="about">
     <div class="container">
       <div class="row">
-        <div class="col-12 d-flex flex-column align-items-center">
+        <div class="col-12 d-flex flex-column align-items-center" data-aos="fade-up">
           <div class="bg-font border-0 rounded-4 fw-bold text-center px-2 mb-3" style="width: auto;">
             <p class="text-lightblue mb-1">about me</p>
           </div>
@@ -150,7 +151,7 @@
   <section class="py-3">
     <div class="container">
       <div class="row text-center">
-        <div class="col-12">
+        <div class="col-12" data-aos="fade-up">
           <h3 class="mb-2 fw-bold text-lightwhite mb-4">Hi, I'm Vaishali Chauhan, based in india</h3>
           <p class="text-gray fs-5 mb-5 "> I’m a dedicated Frontend Developer
             and an Information Technology student at Government Engineering College, Bhavnagar.
@@ -163,7 +164,7 @@
         <div class="col-12">
           <div class="text-lightblue rounded-4">
             <div class="row">
-              <div class="col-12 col-md-4">
+              <div class="col-12 col-md-4"  data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1500">
                 <div class="box rounded-3 p-3 m-3">
                   <img src="./img/coding.gif" class="img-fluid mb-3 mt-3 rounded-2" style="height: 50px;">
                   <h4 class="text-lightwhite mb-1">information technology</h4>
@@ -171,7 +172,7 @@
                     development and emerging technologies.</p>
                 </div>
               </div>
-              <div class="col-12 col-md-4">
+              <div class="col-12 col-md-4" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1500">
                 <div class="box rounded-3 p-3 m-3">
                   <img src="./img/responsive.gif" class="img-fluid mb-3 mt-3 rounded-2" style="height: 50px;">
                   <h4 class="text-lightwhite mb-1">Web development</h4>
@@ -179,7 +180,7 @@
                     user-friendly websites. Eager to learn and grow in the tech world.</p>
                 </div>
               </div>
-              <div class="col-12 col-md-4">
+              <div class="col-12 col-md-4" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1500">
                 <div class="box rounded-3 p-3 m-3">
                   <img src="./img/ai.gif" class="img-fluid mb-3 mt-3 rounded-2" style="height: 50px;">
                   <h4 class="text-lightwhite mb-1">AI & Machine Learning</h4>
@@ -190,7 +191,7 @@
             </div>
           </div>
 
-          <div class="pt-4">
+          <div class="pt-4" data-aos="fade-up">
             <button class="btn bg-lightblue btn-sm text-light fs-5 mt-3 py-2 px-4 shadow-info">
               More About Me
               <i class="ri-arrow-right-line "></i>
@@ -205,7 +206,7 @@
   <section class="pt-5" id="skill">
     <div class="container">
       <div class="row">
-        <div class="col-12 d-flex flex-column align-items-center">
+        <div class="col-12 d-flex flex-column align-items-center" data-aos="fade-up">
           <div class="bg-font border-0 rounded-4 fw-bold text-center px-2 mb-4" style="width: auto;">
             <p class="text-lightblue mb-0">What I Do</p>
           </div>
@@ -218,32 +219,32 @@
   </section>
   <section class="py-5">
     <div class="container">
-      <div class="slider">
-        <div class="box1 s-1" style="border:0.5px solid #333948; margin: 10px;">
+      <div class="slider" data-aos="fade-up">
+        <div class="box1 s-1" style="margin: 10px;">
           <i class="bx bxl-html5 d-flex justify-content-center pt-4" style="color:#e54d26; font-size: 90px;"></i>
           <p class=" text-center fw-bold text-light fs-5">HTML</p>
         </div>
-        <div class="box1 s-2" style="border:0.5px solid #333948; margin: 10px;">
+        <div class="box1 s-2" style="margin: 10px;">
           <i class="bx bxl-css3 d-flex justify-content-center pt-4" style="color:#0070be; font-size: 90px;"></i>
           <p class=" text-center fw-bold text-light fs-5">CSS</p>
         </div>
-        <div class="box1 s-3" style="border:0.5px solid #333948; margin: 10px;">
+        <div class="box1 s-3" style="margin: 10px;">
           <i class="bx bxl-bootstrap d-flex justify-content-center pt-4" style="color:#6e10ec; font-size: 90px;"></i>
           <p class=" text-center fw-bold text-light fs-5">Bootstrap</p>
         </div>
-        <div class="box1 s-4" style="border:0.5px solid #333948; margin: 10px;">
+        <div class="box1 s-4" style="margin: 10px;">
           <i class="bx bxl-jquery d-flex justify-content-center pt-4" style="color:#78cff5; font-size: 90px;"></i>
           <p class=" text-center  fw-bold text-light fs-5">jQuery</p>
         </div>
-        <div class="box1 s-5" style="border:0.5px solid #333948; margin: 10px;">
+        <div class="box1 s-5" style="margin: 10px;">
           <i class="bx bxl-javascript  d-flex justify-content-center pt-4" style="color:#f4e11e; font-size: 90px;"></i>
           <p class=" text-center fw-bold text-light fs-5">JavaScript </p>
         </div>
-        <div class="box1 s-6" style="border:0.5px solid #333948; margin: 10px;">
+        <div class="box1 s-6" style="margin: 10px;">
           <i class="bx bxl-c-plus-plus d-flex justify-content-center pt-4" style="color:#0080cd; font-size: 90px;"></i>
           <p class=" text-center fw-bold text-light fs-5">c++</p>
         </div>
-        <div class="box1 s-7" style="border:0.5px solid #333948; margin: 10px;">
+        <div class="box1 s-7" style="margin: 10px;">
           <img src="./img/photoshop.png" class="bx d-flex justify-content-center pt-4"
             style="height: 110px; margin: auto;">
           <p class=" text-center fw-bold text-light fs-5">Photoshop</p>
@@ -255,7 +256,7 @@
   <section class="pt-5" id="project">
     <div class="container">
       <div class="row">
-        <div class="col-12 d-flex flex-column align-items-center">
+        <div class="col-12 d-flex flex-column align-items-center" data-aos="fade-up">
           <div class="bg-font border-0 rounded-4 fw-bold text-center px-2 mb-4" style="width: auto;">
             <p class="text-lightblue mb-0">My work</p>
           </div>
@@ -271,7 +272,8 @@
   <section class="pb-4 pt-3">
     <div class="container">
       <div class="row text-center">
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-4" data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom">
           <div class="bit">
             <div class="card p-2 border-1  bg-trans">
               <img src="./img/grocery.png" class="card-img-top rounded-bottom-2" alt="...">
@@ -299,7 +301,8 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-4" data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom">
           <div class="bit-1">
             <div class="card p-2 border-1  bg-trans">
               <img src="./img/fashion.png" class="card-img-top rounded-bottom-2" alt="...">
@@ -329,7 +332,8 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-4" data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom">
           <div class="bit-2">
             <div class="card p-2 border-1  bg-trans">
               <img src="./img/courses.png" class="card-img-top rounded-bottom-2" alt="...">
@@ -361,7 +365,7 @@
           </div>
         </div>
 
-        <div class="pt-4">
+        <div class="pt-4" data-aos="fade-up">
           <a href="project.html">
             <button class="btn bg-lightblue btn-sm text-light fs-5 mt-3 py-2 px-4 shadow-info">
             View All Projects
@@ -377,7 +381,7 @@
   <section class="pt-5 py-4" id="education">
     <div class="container">
       <div class="row">
-        <div class="col-12 d-flex flex-column align-items-center">
+        <div class="col-12 d-flex flex-column align-items-center" data-aos="fade-up">
           <div class="bg-font border-0 rounded-4 fw-bold text-center px-2 mb-2" style="width: auto;">
             <p class="text-lightblue mb-0">My Journey</p>
           </div>
@@ -392,7 +396,8 @@
   <section class="py-3">
     <div class="container">
       <div class="row">
-        <div class="col-9 mb-3" style="margin: auto;">
+        <div class="col-9 mb-3" style="margin: auto;" data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom">
           <div class="box-7 rounded-4 bg-transperent p-5 border-pink">
             <div class="d-flex justify-content-between flex-wrap gap-3 mb-3">
               <div>
@@ -429,7 +434,8 @@
           </div>
 
         </div>
-        <div class="col-9 mb-3" style="margin: auto;">
+        <div class="col-9 mb-3" style="margin: auto;" data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom">
           <div class="box-7 rounded-4 bg-transperent p-5 border-pink">
             <div class="d-flex justify-content-between flex-wrap gap-3 mb-3">
               <div>
@@ -470,7 +476,7 @@
   <section class="pt-5 py-4">
     <div class="container">
       <div class="row">
-        <div class="col-12 d-flex flex-column align-items-center">
+        <div class="col-12 d-flex flex-column align-items-center" data-aos="fade-up">
           <div class="bg-font border-0 rounded-4 fw-bold text-center px-2 mb-2" style="width: auto;">
             <p class="text-lightblue mb-0">My Testimonial</p>
           </div>
@@ -487,7 +493,7 @@
         <div id="carouselExampleControls" class="carousel">
           <div class="container-fluid">
             <div class="row">
-              <div class=" col-12 col-md-4">
+              <div class=" col-12 col-md-4" data-aos="fade-right">
                 <div class="testimonial-title">
                   <h1 class="display-2">
                     <i class="ri-double-quotes-l"></i>
@@ -495,7 +501,7 @@
                   <h2 class="fw-bold display-6">What our customers say</h2>
                 </div>
               </div>
-              <div class="col-12 col-md-8">
+              <div class="col-12 col-md-8" data-aos="fade-left">
                 <div class="swiper mySwiper">
                   <div class="swiper-wrapper">
                     <div class="swiper-slide">
@@ -564,10 +570,10 @@
     </div>
   </section>
  <!-- ---------------------------------------------------------contact me  --------------------------------------------------->
-  <section class="pt-5 py-4">
+  <section class="pt-5 py-4" id="contact">
     <div class="container">
       <div class="row">
-        <div class="col-12 d-flex flex-column align-items-center">
+        <div class="col-12 d-flex flex-column align-items-center" data-aos="fade-up">
           <div class="bg-font border-0 rounded-4 fw-bold text-center px-2 mb-2" style="width: auto;">
             <p class="text-lightblue mb-0">Let's Talk</p>
           </div>
@@ -583,7 +589,7 @@
   <section>
     <div class="container">
       <div class="row">
-        <div class="col-12 col-lg-6 mb-4">
+        <div class="col-12 col-lg-6 mb-4" data-aos="fade-up-right">
           <div class="box1 p-4">
             <h3 class="text-trans-1 fw-bold mb-4">What's Cooking?</h3>
 
@@ -634,7 +640,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-6 mb-4">
+        <div class="col-12 col-lg-6 mb-4" data-aos="fade-up-left">
           <div class="box1 p-4">
             <h3 class="text-trans-1 fw-bold mb-4">Send Me a Message</h3>
             <form action="">
@@ -673,7 +679,7 @@
   <footer class="py-5 my-3">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-md-12 col-lg-6 col-xl-4 pb-3">
+        <div class="col-12 col-md-12 col-lg-6 col-xl-4 pb-3" data-aos="fade-down-right">
           <div class="bg-f shadow-lg border-2 p-3 rounded-4">
             <div class="d-flex align-items-center gap-2">
               <h3 class="fs-3 text-light pb-2 fw-bold ">Vaishali's Portfolio </h3> <img src="./img/box.png"
@@ -688,7 +694,7 @@
               innovating, and delivering results.</p>
           </div>
         </div>
-        <div class="col-12 col-md-12 col-lg-6 col-xl-4 pb-3">
+        <div class="col-12 col-md-12 col-lg-6 col-xl-4 pb-3" data-aos="fade-down">
           <div class="bg-f shadow-lg border-2 p-3 rounded-4">
             <h3 class="fs-3 text-light pb-4 fw-bold ">Quick Links </h3>
             <ul class="menu-list list-unstyled">
@@ -715,7 +721,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-12 col-md-12 col-lg-6 col-xl-4 pb-3">
+        <div class="col-12 col-md-12 col-lg-6 col-xl-4 pb-3" data-aos="fade-down-left">
           <div class="bg-f shadow-lg border-2 p-3 rounded-4">
             <h3 class="fs-3 text-light pb-2 fw-bold ">Contact Info</h3>
             <div class="div3 d-flex align-items-center pt-3">
@@ -770,6 +776,7 @@
     </section>
 </body>
 <script src="bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
@@ -1046,5 +1053,8 @@
     ]
   });
 
+</script>
+<script>
+  AOS.init();
 </script>
 </html>

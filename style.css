@@ -28,24 +28,31 @@
       text-shadow: 2px 2px 5px #9B87F5;
     }
   .s-1:hover{
+    border:0.5px solid #e54d26;
      box-shadow: #e54c26b7 2px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;;
   }
   .s-2:hover{
+    border:0.5px solid #0070be;
      box-shadow: #006fbec5 2px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;;
   }
   .s-3:hover{
+    border:0.5px solid #6e10ec; 
      box-shadow: #6f10ecbe 2px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;;
   }
   .s-4:hover{
+    border:0.5px solid #78cff5; 
      box-shadow: #78d0f5c4 2px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;;
   }
   .s-5:hover{
+    border:0.5px solid #f4e11e; 
      box-shadow: #f4e21eb7 2px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;;
   }
   .s-6:hover{
+    border:0.5px solid #0080cd; 
      box-shadow: #007ecdbe 2px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;;
   }
   .s-7:hover{
+    border:0.5px solid #00A9FF;
      box-shadow: #00aaffd7 2px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;;
   }
     /*----------- background colors ----------*/
@@ -221,7 +228,6 @@
   border-radius: 20px;
   backdrop-filter: blur(1.5rem);
   background-color: #b4afff17;
-  border: 1px solid #4e4e4ea9;
 }
 .box:hover{
   transform: scale(1.1);
