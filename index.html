@@ -661,26 +661,28 @@
           <div class="box1 p-4">
             <h3 class="text-trans-1 fw-bold mb-4">Send Me a Message</h3>
             <form action="https://api.web3forms.com/submit" method="POST">
-              <div class="input-group mb-5 bg-transparent rounded-4  border-0">
+              <!-- access key -->
+              <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+              <div class="input-group mb-5 bg-transparent rounded-4  border-0" >
                 <span class="input-group-text bg-transparent border-gray" id="basic-addon1">
                   <i class="ri-user-3-line fs-3 text"></i>
                 </span>
                 <input type="text" class="form-control bg-transparent border-gray text" placeholder="Your Name"
-                  aria-label="Username" aria-describedby="basic-addon1">
+                  aria-label="Username" aria-describedby="basic-addon1" required>
               </div>
               <div class="input-group mb-5 bg-transparent rounded-4  border-0">
                 <span class="input-group-text bg-transparent border-gray" id="basic-addon1">
                   <i class="ri-mail-line fs-3 text"></i>
                 </span>
-                <input type="text" class="form-control bg-transparent border-gray text" placeholder="Your Email"
-                  aria-label="Username" aria-describedby="basic-addon1">
+                <input type="email" class="form-control bg-transparent border-gray text form-control" placeholder="Your Email"
+                  aria-label="Username" aria-describedby="basic-addon1" required>
               </div>
               <div class="input-group mb-5 bg-transparent rounded-4  border-0">
                 <span class="input-group-text bg-transparent border-gray" id="basic-addon1">
                   <i class="ri-chat-1-line fs-3 text pb-4"></i>
                 </span>
                 <input type="text" class="form-control bg-transparent border-gray text pb-5 pt-3"
-                  placeholder="Your Message" aria-label="Username" aria-describedby="basic-addon1">
+                  placeholder="Your Message" aria-label="Username" aria-describedby="basic-addon1" required>
               </div>
               <div class="d-grid gap-2">
                 <button class="btn bg-grad text-light fw-bold pb-2" type="submit"><i class="ri-send-plane-fill fs-5"
@@ -793,6 +795,7 @@
     </section>
 </body>
 <script src="bootstrap.bundle.min.js"></script>
+<script src="https://web3forms.com/form.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
