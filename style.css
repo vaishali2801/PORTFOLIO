@@ -392,6 +392,19 @@ canvas {
       background-clip: text;
       display: inline-block;
   }
+   .bit-7{
+    transition: all 0.4s;
+  }
+  .bit-7:hover{
+      transform: translateY(-30px);
+      box-shadow: #f0f0f0 0px 13px 27px -5px, #ebebeb 0px 8px 16px -8px;
+  }
+  .bit-7:hover .text{
+      background: linear-gradient(to right, #24CEEE,#537FF0,#DBA1FA);
+      color: transparent;
+      background-clip: text;
+      display: inline-block;
+  }
   .text{
       background: linear-gradient(to right, #ffffff,#24CEEE);
       color: transparent;
