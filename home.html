@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet">
+  <title>PORTFOLIO</title>
+  <style>
+        body{
+             background: #091527;
+        background: linear-gradient(90deg, rgba(9, 21, 39, 1) 0%, rgba(8, 14, 33, 1) 53%, rgba(8, 14, 33, 1) 100%);
+        }
+    </style>
+</head>
+<body class="bg-blue overflow-x-hidden">
+  <div class="c-cursor js-cursor">
+    <div class="c-cursor__inner c-cursor__inner--circle js-cursor-inner">
+      <div class="c-cursor__side c-cursor__side--left js-cursor-right"></div>
+      <div class="c-cursor__side c-cursor__side--right js-cursor-left"></div>
+    </div>
+  </div>
+  <div class="c-links-wrapper">
+    <ul class="c-links">
+      <li class="c-links__item">
+        <a href="#" class="c-link js-link"></a>
+      </li>
+      <li class="c-links__item">
+        <a href="#" class="c-link js-link"></a>
+      </li>
+    </ul>
+  </div>
+  <!---------------------------------------------------navbar--------------------------------------------------------->
+  <header class="position-relative">
+    <canvas id="canvas" height="850px">
+    </canvas>
+    <div class="row justify-content-between">
+      <div class="navbar navbar-expand-lg fixed-top box-shadow-sm bg-blue">
+        <div class="container">
+          <div class="navbar-brand">
+            <img src="./img/logo.png" alt="" class="img-fluid" style="height: 60px;width: 90px;">
+            <p class="text-blue text-center mb-0" style="transform: translateY(-12px);">Vaishali C.</p>
+          </div>
+          <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+            <i class="ri-menu-line mx-2 text-light fs-2"></i>
+          </button>
+          <div class="navbar-collapse collapse " id="nav">
+            <ul class="navbar-nav nav-underline ms-auto gap-3">
+              <li class="nav-item">
+                <a href="home.html" class="nav-link text-lightwhite text-hover"><b>Home</b></a>
+              </li>
+              <li class="nav-item">
+                <a href="about.html" class="nav-link  text-lightwhite text-hover "><b>About</b></a>
+              </li>
+              <li class="nav-item">
+                <a href="project.html" class="nav-link  text-lightwhite text-hover"><b>Projects</b></a>
+              </li>
+              <li class="nav-item">
+                <a href="https://drive.google.com/drive/folders/1NbdZTxKWiopl7ekEwB6VQjbeQ5QwYNIw" class="nav-link  text-lightwhite text-hover"><b>Resume</b></a>
+              </li>
+              <li class="nav-item px-1">
+                <a href="contact.html" class="nav-link  text-lightwhite text-hover"><b>Contact</b></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-----------------------------------------------------homepage---------------------------------------------------------->
+  <section class="py-3 position-relative" id="home">
+    <div class="container my-5 py-5 z-3">
+      <div class="header_socials">
+          <a href="https://www.linkedin.com/in/vaishalich2801" target="_blank" class="nav-link">
+            <button class="btn bg-transparent text-light btn-sm border-1 rounded-3 px-2">
+               <i class="ri-linkedin-fill text-light" style="font-size: 25px;"></i>
+            </button>
+          </a>
+          <a href="https://github.com/vaishali2801" target="_blank" class="nav-link">
+            <button class="btn bg-transparent text-light btn-sm border-1 rounded-3 px-2">
+               <i class="ri-github-line text-light" style="font-size: 25px;"></i>
+            </button>
+          </a>
+          <a href="https://mail.google.com/mail/vaishalichauhan2801@gmail.com" target="_blank" class="nav-link">
+            <button class="btn bg-transparent text-light btn-sm border-1 rounded-3 px-2">
+               <i class="ri-mail-line text-light" style="font-size: 25px;"></i>
+            </button>
+          </a>
+        </div>
+      <div class="row">
+        <div class="col-12 col-sm-12 col-lg-6 p-2 pt-5 mt-5 p-3" data-aos="fade-right">
+          <div class="bg-font border-0 rounded-4 px-3 fw-bold" style="width: 40%;">
+            <p class="text-lightblue">Welcome to my portfolio</p>
+          </div>
+          <h1 class="display-1 text-lightwhite">Hello, I'm</h1>
+          <h1 class=" display-1 text-lightwhite">Vaishali Chauhan</h1>
+          <div class="d-flex justify-content-start align-items-center">
+            <h1 class="display-7 fw-bold text-gray mt-2 mb-2">
+              <span class="auto-type"></span>
+            </h1>
+          </div>
+          <p class="fs-4 text-gray p-3">Frontend Developer passionate about crafting engaging and user-friendly web
+            interfaces.I’m eager to kickstart my career in web development.</p>
+          <div class="d-flex gap-3 p-3">
+           <a href="https://drive.google.com/drive/folders/1NbdZTxKWiopl7ekEwB6VQjbeQ5QwYNIw" target="_blank">
+             <button class="btn bg-lightblue btn-sm text-light fs-5 mt-2 py-2 px-4 shadow-info">
+              Resume
+              <i class="ri-arrow-right-line "></i>
+            </button>
+           </a>
+          <a href="project.html" target="_blank">
+              <button class="btn  bg-lightpurple text-light fs-5 mt-2 py-2 px-4 shadow-blue">
+              View project
+            </button>
+          </a>
+          </div>
+
+          <!-- ------------------------visit page  ----------------------------------------------->
+
+          <div class="div1 d-flex mb-3 gap-3 pt-3 px-3">
+            <a href="mailto:vaishalichauhan@gmail.com" target="_blank" class="nav-link">
+              <div class="rounded-circle bg-whites icon1" style="height: 50px;width: 48px;">
+                <i class="ri-mail-line text-light" style="margin:10px;"></i>
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/vaishalich2801" target="_blank" class="nav-link">
+              <div class="rounded-circle bg-whites icon2" style="height: 50px;width: 48px;">
+                <i class="ri-linkedin-fill text-light" style="margin:10px;"></i>
+              </div>
+            </a>
+            <a href="https://github.com/vaishali2801" target="_blank" class="nav-link">
+              <div class="rounded-circle bg-whites icon3" style="height: 50px;width: 48px;">
+                <i class="ri-github-line text-light" style="margin:10px;"></i>
+              </div>
+            </a>
+
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-lg-6 p-3 d-flex justify-content-center flex-column gap-2 px-5" data-aos="fade-left">
+          <div class="mx-5 z-3">
+            <img src="./img/cvs.jpg" class="img-fluid rounded-pill shadow" style=" width: 75%;height: 550px;">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ <script src="bootstrap.bundle.min.js"></script>
+<script src="https://web3forms.com/form.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+  var typed = new Typed('.auto-type', {
+
+    strings: ['Frontend Developer', 'Web Developer', 'web designer'],
+    typeSpeed: 50,
+    backSpeed: 80,
+    loop: true,
+  });
+</script>
+<script>
+  const body = document.body;
+
+  const MathUtils = {
+    lineEq: (y2, y1, x2, x1, currentVal) => {
+      // y = mx + b
+      var m = (y2 - y1) / (x2 - x1),
+        b = y1 - m * x1;
+      return m * currentVal + b;
+    },
+    lerp: (a, b, n) => (1 - n) * a + n * b,
+    getRandomFloat: (min, max) => (Math.random() * (max - min) + min).toFixed(2)
+  };
+
+  const getMousePos = e => {
+    let posx = 0;
+    let posy = 0;
+    if (!e) e = window.event;
+    if (e.pageX || e.pageY) {
+      posx = e.pageX;
+      posy = e.pageY;
+    } else if (e.clientX || e.clientY) {
+      posx = e.clientX + body.scrollLeft + document.documentElement.scrollLeft;
+      posy = e.clientY + body.scrollTop + document.documentElement.scrollTop;
+    }
+    return { x: posx, y: posy };
+  };
+
+  let winsize;
+  const calcWinsize = () =>
+    (winsize = { width: window.innerWidth, height: window.innerHeight });
+  calcWinsize();
+  window.addEventListener("resize", calcWinsize);
+
+  let mousepos = { x: winsize.width / 2, y: winsize.height / 2 };
+  window.addEventListener("mousemove", ev => (mousepos = getMousePos(ev)));
+
+  // Custom cursor
+  class Cursor {
+    constructor(el) {
+      this.DOM = { el: el };
+      this.DOM.circle = this.DOM.el.querySelector(".js-cursor-inner");
+      this.DOM.arrows = {
+        right: this.DOM.el.querySelector(".js-cursor-right"),
+        left: this.DOM.el.querySelector(".js-cursor-left")
+      };
+      this.bounds = this.DOM.circle.getBoundingClientRect();
+      this.lastMousePos = { x: 0, y: 0 };
+      this.scale = 1;
+      this.lastScale = 1;
+      requestAnimationFrame(() => this.render());
+    }
+    render() {
+      this.lastMousePos.x = MathUtils.lerp(
+        this.lastMousePos.x,
+        mousepos.x - this.bounds.width / 2,
+        0.2
+      );
+      this.lastMousePos.y = MathUtils.lerp(
+        this.lastMousePos.y,
+        mousepos.y - this.bounds.height / 2,
+        0.2
+      );
+      this.lastScale = MathUtils.lerp(this.lastScale, this.scale, 0.15);
+      this.DOM.circle.style.transform = `translateX(${this.lastMousePos.x
+        }px) translateY(${this.lastMousePos.y}px) scale(${this.lastScale})`;
+      requestAnimationFrame(() => this.render());
+    }
+    enter() {
+      this.scale = 1.9;
+    }
+    leave() {
+      this.scale = 1;
+    }
+    click() {
+      this.lastScale = 0.4;
+    }
+    showArrows() {
+      TweenMax.to(Object.values(this.DOM.arrows), 1, {
+        ease: Expo.easeOut,
+        startAt: { x: i => (i ? 10 : -10) },
+        opacity: 1,
+        x: 0
+      });
+    }
+    hideArrows() {
+      TweenMax.to(Object.values(this.DOM.arrows), 1, {
+        ease: Expo.easeOut,
+        x: i => (i ? 10 : -10),
+        opacity: 0
+      });
+    }
+  }
+
+  // Custom mouse cursor
+  const cursor = new Cursor(document.querySelector(".js-cursor"));
+
+  // Activate the enter/leave/click methods of the custom cursor when hovering in/out on every <a> (and the close content ctrl)
+  const links = document.querySelectorAll(".js-link");
+
+  [...links].forEach(link => {
+    link.addEventListener("mouseenter", () => cursor.enter());
+    link.addEventListener("mouseleave", () => cursor.leave());
+  });
+</script>
+<script>
+  const canvas = document.getElementById("canvas");
+  const ctx = canvas.getContext("2d");
+
+  canvas.width = window.innerWidth;
+  // canvas.height = window.innerHeight;
+
+  let particles = [];
+  const numberOfParticles = 200;
+  const mouse = {
+    x: null,
+    y: null,
+    radius: 150
+  };
+
+  // Define gradient colors array
+  const gradientColors = ["#ff6b6b", "#4ecdc4", "#45b7d1", "#96c93d"];
+
+  class Particle {
+    constructor() {
+      this.x = Math.random() * canvas.width;
+      this.y = Math.random() * canvas.height;
+      this.size = Math.random() * 2 + 0.5; // Slightly smaller particles
+      this.baseX = this.x;
+      this.baseY = this.y;
+      this.density = Math.random() * 30 + 1;
+      this.color =
+        gradientColors[Math.floor(Math.random() * gradientColors.length)];
+      this.alpha = Math.random() * 0.5 + 0.5; // Add transparency
+    }
+
+    draw() {
+      ctx.beginPath();
+      ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+      ctx.closePath();
+      ctx.fillStyle = this.color;
+      ctx.globalAlpha = this.alpha;
+      ctx.fill();
+      ctx.globalAlpha = 1;
+    }
+
+    update() {
+      let dx = mouse.x - this.x;
+      let dy = mouse.y - this.y;
+      let distance = Math.sqrt(dx * dx + dy * dy);
+      let forceDirectionX = dx / distance;
+      let forceDirectionY = dy / distance;
+      let maxDistance = mouse.radius;
+      let force = (maxDistance - distance) / maxDistance;
+      let directionX = forceDirectionX * force * this.density;
+      let directionY = forceDirectionY * force * this.density;
+
+      if (distance < mouse.radius) {
+        this.x -= directionX;
+        this.y -= directionY;
+      } else {
+        if (this.x !== this.baseX) {
+          let dx = this.x - this.baseX;
+          this.x -= dx / 10;
+        }
+        if (this.y !== this.baseY) {
+          let dy = this.y - this.baseY;
+          this.y -= dy / 10;
+        }
+      }
+    }
+  }
+
+  function init() {
+    particles = [];
+    for (let i = 0; i < numberOfParticles; i++) {
+      particles.push(new Particle());
+    }
+  }
+
+  function animate() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    for (let i = 0; i < particles.length; i++) {
+      particles[i].update();
+      particles[i].draw();
+    }
+    requestAnimationFrame(animate);
+  }
+
+  window.addEventListener("mousemove", (e) => {
+    mouse.x = e.x;
+    mouse.y = e.y;
+  });
+
+  window.addEventListener("resize", () => {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+    init();
+  });
+
+  window.addEventListener("mouseout", () => {
+    mouse.x = undefined;
+    mouse.y = undefined;
+  });
+
+  init();
+  animate();
+
+</script>
+
+
+<script>
+  AOS.init();
+</script>
+</html>
